@@ -10,7 +10,7 @@ Web map of the world's power, telecoms, oil/gas, and water infrastructure, built
 
 ## Verify changes (from `web/`)
 
-- `npm run lint` (ESLint + Prettier, same as CI)
+- `npm run lint`
 - `npm test`: IMPORTANT: start `npm start` in the background and wait for http://localhost:5173 first. The tests load the running site in Puppeteer and fail without it.
 - `npx tsc` already fails on main, and CI doesn't run it. Don't fix those errors unless asked.
 
